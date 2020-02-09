@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+  height:1400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.top{
+  margin-top: 0;
+  height:30%; 
+  background-color:blueviolet;
+  text-align: center;
+}
+.logo{
+  padding-left: 30%;
+  padding-right: 30%;
+}
+#title{
+  color: #FFFFFF;
+  margin-top: 0;
+  padding-top: 20%;
+  font-size: 42px;
+  padding-bottom: 10%;
+}
+p{
+  color:#D4CCFF;
+  font-size: 16px;
+}  
+.main{
+  height:58%;
+  position:relative;
+  top:-5%; 
+}
+.leftCards{
+  margin-left:20%;
+  margin-right: 3%;
+  margin-bottom: 5%;
+}
+.cardContainer{
+  margin-right: 3%;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5%;
+}
+.rightCards{
+  margin-left: 3%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+}
+.leftIcon{
+  width:10%;
+  height:100%;
+  padding-left: 5%;
+  padding-top: 3%;
+}
+#bottomCardContainer{
+  margin-left: 10%;
+  padding-right: 20%;
+  color: #FFFFFF ;
+  background-color: blueviolet;
+  margin-top: 5%;
+  width:80%;
+}
+#bottomCard{
+  width:100%;
+  margin-left: 15%;
+}
+.card{
+  background-color: blueviolet;
+}
+img{
+  width:32px;
+  height:32px;
+}
+.card-body{
+  display: table-cell;
+  float: right;
+  width:80%;
+  height:100%;
+}
+.card-title{
+  color: #09E1C0;
+  font-size: 18px;
+  text-align: left;
+}
+.card-text{
+  font-size: 16px;
+  color: #8585BD;
+  text-align: left;
+  /* float: left; */
+}
+.link{
+  color: #8585BD;
+  font-weight: bold;
+  float: left;
+}
+.live{
+  margin-top: 10px;
+  color:#FFFFFF;
+  font-size: 20px;
+  pointer-events:none;
+}
+#liveButton{
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+  height: 30%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.bottom{
+  height:8%;
+  background-color: #4e4d4d;
+  position:relative;
+  top:0;
+}
+.footer{
+  height:4%;
+  background-color:#302f2f ;
+  display:flex;
+  flex-direction: row;
+} 
+#footerWord{
+  padding-left:12%;
+  width:50%;
+}
+#footerIcon{
+  padding-right: 10%;
+  padding-left: 30%;
+  width: 50%;
+}
+i{
+  color: #FFFFFF;
+}
+#twitter{
+  padding-left: 30%;
+}
